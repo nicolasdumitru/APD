@@ -1,0 +1,16 @@
+# Makefile binaries
+/mutex
+/barrier
+/multiply_seq
+/multiply_outer
+/multiply_middle
+/multiply_inner
+/strassen
+/strassen_par
+
+# Test script outputs
+/seq.txt
+/par.txt
+/par_outer.txt
+/par_middle.txt
+/par_inner.txt
