@@ -1,0 +1,17 @@
+# Makefile binaries
+/bonus/barrier
+/demo/non-blocking
+/demo/sendrecv
+/demo/rsend
+/demo/bsend
+/demo/struct
+/demo/barrier
+/ex1/ring
+/ex2/bsend/deadlock
+/ex2/non-blocking/deadlock
+/ex2/sendrecv/deadlock
+/ex3/queue
+
+# Program outputs (MPI-IO)
+/bonus/out.txt
+/demo/out.txt
