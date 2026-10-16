@@ -6,14 +6,19 @@
 
 int a = 0;
 
-// TODO: adaugati mutexul in functia de mai jos
+pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
+
 void *f(void *arg) {
+    (void)arg;
+
+    pthread_mutex_lock(&m);
     a += 2;
+    pthread_mutex_unlock(&m);
 
     pthread_exit(NULL);
 }
 
-int main(int argc, char *argv[]) {
+int main(void) {
     int i, r;
     void *status;
     pthread_t threads[NUM_THREADS];
