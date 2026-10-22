@@ -1,0 +1,12 @@
+*.cache
+compile_commands.json
+
+barrier
+multiply_inner
+multiply_middle
+multiply_outer
+multiply_seq
+mutex
+strassen
+strassen_par
+
