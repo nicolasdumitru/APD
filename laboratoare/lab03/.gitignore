@@ -1,0 +1,5 @@
+# Makefile binaries
+/oets
+/shear
+/merge
+/parallel_binary_search

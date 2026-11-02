@@ -1,0 +1,11 @@
+# Makefile binaries
+/broadcast/broadcast
+/pipeline sort/pipeline_sort
+/polynomial/polynomial
+/ranksort/ranksort
+/reduce/reduce
+/scan/scan
+
+# Makefile run outputs
+/pipeline sort/a1.txt
+/pipeline sort/a2.txt
