@@ -35,6 +35,9 @@
           pyright
           black
 
+          jdk25
+          jetbrains.idea
+
           just
 
           nil
