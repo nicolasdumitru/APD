@@ -5,7 +5,7 @@ package bug4;
  * Fix the problem changing a single line of code.
  */
 public class Main extends Thread {
-    volatile boolean keepRunning = true;
+    boolean keepRunning = true;
 
     public void run() {
         long count = 0;
