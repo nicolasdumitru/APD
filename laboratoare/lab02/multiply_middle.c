@@ -8,10 +8,6 @@ int **a;
 int **b;
 int **c;
 
-double min(double a, double b) {
-    return a < b ? a : b;
-}
-
 // TODO: paralelizati operatia din comentariul din functie
 // in interiorul functiei respective
 void *thread_function(void *arg) {
@@ -26,17 +22,6 @@ void *thread_function(void *arg) {
             }
     }
     */
-
-    int start = thread_id * (double)N / P;
-    int end = min((thread_id + 1) * (double)N / P, N);
-
-    for (int i = 0; i < N; i += 1) {
-        for (int j = start; j < end; j += 1) {
-            for (int k = 0; k < N; k += 1) {
-                c[i][j] += a[i][k] * b[k][j];
-            }
-        }
-    }
 
     pthread_exit(NULL);
 }
