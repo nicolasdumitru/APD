@@ -1,0 +1,5 @@
+statistici
+
+# Tooling
+.cache
+compile_commands.json
