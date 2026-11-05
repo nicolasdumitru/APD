@@ -1,0 +1,8 @@
+strassen
+strassen_par
+strassen_timing
+strassen_par_timing
+
+# Tooling
+.cache
+compile_commands.json
